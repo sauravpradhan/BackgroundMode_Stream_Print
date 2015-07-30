@@ -16,7 +16,7 @@ public class myReceiver extends BroadcastReceiver {
 		Log.d("S@urav","Current Volume for Music stream is:"+MainActivity.mAm.getStreamVolume(AudioManager.STREAM_MUSIC));
 		Log.d("S@urav","Current Volume for Call stream is:"+MainActivity.mAm.getStreamVolume(AudioManager.STREAM_VOICE_CALL));
 		Log.d("S@urav","Current Volume for Ring stream is:"+MainActivity.mAm.getStreamVolume(AudioManager.STREAM_RING));
-		Log.d("S@urav","Current Volume for DTMF stream is:"+MainActivity.mAm.getStreamVolume(AudioManager.STREAM_DTMF));
+		/*Log.d("S@urav","Current Volume for DTMF stream is:"+MainActivity.mAm.getStreamVolume(AudioManager.STREAM_DTMF));*/
 		Log.d("S@urav","Current Volume for Notification stream is:"+MainActivity.mAm.getStreamVolume(AudioManager.STREAM_NOTIFICATION));
 	}
 
