@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BackgroundModePrint</string>
+    <string name="hello_world">Print the AudioMode and AudioStream with Broadcast! \n
+        \n
+       Give a fake-broadcast using 
+        \n<b><i>"adb shell am broadcast -a android.intent.action.PACKAGE_ADDED"</i></b>
+        and you are ready to go.\n
+        \n
+        To know AudioStream you have to 
+        print the mode once and see all the stream volumes.
+        Change the volume again and then see which STREAM volume is changed using broadcast.
+        That is the current active stream.
+        Use tag <b>s@urav</b> to get logs.
+        </string>
+    <string name="action_settings">Settings</string>
+
+</resources>
