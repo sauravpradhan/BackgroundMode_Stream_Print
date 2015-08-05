@@ -1,5 +1,7 @@
 package com.example.backgroundmodeprint;
-
+/* Author: Saurav Pradhan
+ * This application works with broadcast : adb shell am broadcast -a android.intent.action.PACKAGE_ADDED
+ */
 import android.app.Activity;
 import android.content.Context;
 import android.media.AudioManager;
